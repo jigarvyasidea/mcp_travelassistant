@@ -9,7 +9,7 @@ from mcp.server.fastmcp import FastMCP
 EVENTS_DIR = "events"
 
 # Initialize FastMCP server
-mcp = FastMCP("event-assistant")
+mcp = FastMCP(" Easy my trip event-assistant")
 
 def get_serpapi_key() -> str:
     """Get SerpAPI key from environment variable."""
